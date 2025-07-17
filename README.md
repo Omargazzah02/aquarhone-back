@@ -1,7 +1,7 @@
 Pour démarrer le projet :
 Exécuter la commande npm install pour installer les dépendances.
 
-Créer un fichier .env à la racine du projet contenant la variable DATABASE_URL avec les informations de connexion à la base de données.
+Créer un fichier .env à la racine du projet contenant la variable DATABASE_URL avec les informations de connexion à la base de données et JWT_SECRET  avec  la clé secrète
 
 Lancer la commande npx prisma migrate dev --name init pour générer la base de données à partir du schéma Prisma.
 
